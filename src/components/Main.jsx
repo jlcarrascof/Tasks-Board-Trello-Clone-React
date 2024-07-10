@@ -2,7 +2,9 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <div className='flex flex-col bg-slate-900 w-full'>
+      Main
+    </div>
   )
 }
 
