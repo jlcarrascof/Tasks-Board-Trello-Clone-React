@@ -1,12 +1,17 @@
 import './App.css'
+import Header from './components/Header.jsx'
+import Sidebar from './components/Sidebar.jsx'
+import Main from './components/Main.jsx'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Header></Header>
+      <div>
+        <Sidebar></Sidebar>
+        <Main></Main>
+      </div>
     </>
   )
 }
